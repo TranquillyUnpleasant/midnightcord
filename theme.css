@@ -62,14 +62,14 @@
 
   /* colour of text/button in interactive buttons (and text channel
   names) when hovered over */
-  --interactive-hover: #c1a200 !important;
+  --interactive-hover: #9d3ebd !important;
 
   /* colour of things that are currently selected (e.g. colour of
   channel name that you are participating in) */
-  --interactive-active: #f1d203 !important;
+  --interactive-active: #e4c7ed !important;
 
   /* colour of muted channel names */
-  --interactive-muted: #30343d !important;
+  --interactive-muted: #614869 !important;
 
   /* colour of:
      - text in a codeblock
@@ -152,7 +152,7 @@ and on profile) */
 /* Bot tags */
   /* colour of the tag (backround and text) */
   [class*="botTagCozy-"], [class*="botTag-"] {
-    background-color: #f1d203;
+    background-color: #8000a0;
     color: white;
   }
 
@@ -281,7 +281,7 @@ div.message-2qnXI6:hover {
 
   /* no idea what this does tbh */
   .scroller-2FKFPG.systemPad-3UxEGl.bodyInner-245q0L {
-    background-color: #f1d203 !important;  /* edited from var(--background-secondary) */
+    background-color: #300050 !important;  /* edited from var(--background-secondary) */
   }
 
   /* role box backround colour */
