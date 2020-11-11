@@ -66,7 +66,7 @@
 
   /* colour of things that are currently selected (e.g. colour of
   channel name that you are participating in) */
-  --interactive-active: #e4c7ed !important;
+  --interactive-active: #e8a1ff !important;
 
   /* colour of muted channel names */
   --interactive-muted: #614869 !important;
