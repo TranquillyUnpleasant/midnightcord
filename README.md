@@ -2,6 +2,9 @@
 a simple midnight theme for discord that's nice on your eyes.
 it's somewhat based on the nocturnal betterdiscord theme with a few tweaks.
 
+Orignial theme made by [spinfish](https://gihub.com/spinfish/midnightcord). 
+This repo has a deprecated version with minor color swaps i made for personal use.
+
 **this is the first theme i've ever made, and it definitely won't be perfect, so there's most likely going to be little things that aren't themed and it may break when discord updates. if you find anything that's not themed properly or you have any questions, make an issue or a PR that fixes it here.**
 
 ## installation
