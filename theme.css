@@ -526,3 +526,64 @@ amazing LuckFire#4800! */
 .colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
   color: var(--text-link) !important;
 }
+
+/* Borders to separate sections so they can have the same color */
+/* Side bar borders */
+.content-98HsJk{
+  margin: var(--margin) var(--margin) var(--margin) 0px;
+}
+.sidebar-2K8pFh{
+  margin-right: var(--margin);
+}
+.scroller-RmtA4e{
+  background-color: var(--background-primary);
+  border-radius: var(--radius) var(--radius) 0px 0px;
+  margin: var(--margin) 0px;
+}
+.clickable-25tGDB .header-2V-4Sw{
+  background-color: var(--background-primary);
+  border-radius: var(--radius);
+}
+.sidebar-2K8pFh, .container-3w7J-x, .chat-3bRxxu{
+  background-color: transparent;
+}
+
+/* Status */
+.panels-j1Uci_, .container-3baos1, .container-3baos1 .avatar-SmRMf2{
+  border-radius: 0px 0px var(--radius) var(--radius);
+}
+
+/* Chat borders */
+.content-yTz4x3{
+  background-color: var(--background-tertiary);
+  border-radius: var(--radius);
+}
+.scrollerInner-2YIMLh{
+  background-color: var(--background-secondary);
+  border-radius: var(--radius);
+}
+.form-2fGMdU{
+  background-color: var(--background-secondary);
+  border-radius: var(--radius);
+}
+.chatContent-a9vAAp{
+  margin: var(--margin) var(--margin) 0px 0px;
+  background-color: var(--background-secondary);
+  border-radius: var(--radius);
+}
+.scroller-2LSbBU, .scrollerInner-2YIMLh{
+  background-color: transparent;
+}
+
+/* Top bar */
+.container-1r6BKw.themed-ANHk51{
+  background-color: var(--background-secondary);
+  border-radius: var(--radius);
+}
+
+/* Member list */
+.members-1998pB, .members-1998pB>div{
+  margin-top: var(--margin);
+  background-color: var(--background-primary);
+  border-radius: var(--radius);
+}
