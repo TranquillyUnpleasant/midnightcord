@@ -536,12 +536,12 @@ amazing LuckFire#4800! */
   margin-right: var(--margin);
 }
 .scroller-RmtA4e{
-  background-color: var(--background-primary);
+  background-color: var(--background-secondary-alt);
   border-radius: var(--radius) var(--radius) 0px 0px;
   margin: var(--margin) 0px;
 }
 .clickable-25tGDB .header-2V-4Sw{
-  background-color: var(--background-primary);
+  background-color: var(--background-secondary-alt);
   border-radius: var(--radius);
 }
 .sidebar-2K8pFh, .container-3w7J-x, .chat-3bRxxu{
@@ -560,7 +560,7 @@ amazing LuckFire#4800! */
 }
 .chatContent-a9vAAp{
   margin: var(--margin) var(--margin) 0px 0px;
-  background-color: var(--background-secondary);
+  background-color: var(--background-secondary-alt);
   border-radius: var(--radius);
 }
 .scroller-2LSbBU, .scrollerInner-2YIMLh{
@@ -572,14 +572,14 @@ amazing LuckFire#4800! */
 
 /* Top bar */
 .container-1r6BKw.themed-ANHk51{
-  background-color: var(--background-secondary);
+  background-color: var(--background-secondary-alt);
   border-radius: var(--radius);
 }
 
 /* Member list */
 .members-1998pB, .members-1998pB>div{
   margin-top: var(--margin);
-  background-color: var(--background-primary);
+  background-color: var(--background-secondary-alt);
   border-radius: var(--radius);
 }
 
@@ -591,4 +591,9 @@ amazing LuckFire#4800! */
   position: absolute;
   top: 4px;
   background-color: var(--text-link);
+}
+
+/* Settings left side */
+.sidebarRegionScroller-3MXcoP{
+  background-color: var(--background-tertiary);
 }
