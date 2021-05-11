@@ -587,3 +587,13 @@ amazing LuckFire#4800! */
   background-color: var(--background-primary);
   border-radius: var(--radius);
 }
+
+/* Slim unread badges */
+.unread-2lAfLh{
+  width: 1px;
+  border-radius: 0px;
+  height: 34px;
+  position: absolute;
+  top: 4px;
+  background-color: var(--text-link);
+}
