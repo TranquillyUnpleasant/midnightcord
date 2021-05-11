@@ -11,19 +11,19 @@
   --text-link-highlight: #d9a2eb10;
 
   /* colour of right hand side of screen and chat */
-  --background-primary: #181c25 !important;
+  --background-primary: #101219 !important;
 
   /* embed backround/text channel list/member list colour */
-  --background-secondary: #14171f !important;
+  --background-secondary: #101219 !important;
 
   /* colour of change status/mute mic/deafen/user settings patch */
   --background-secondary-alt: #0c0e13 !important;
 
   /* colour of panel when you click on server name/edit message */
-  --background-floating: #0c0e13 !important;
+  --background-floating: #0e1016 !important;
 
   /* colour of border around [top of] discord */
-  --background-tertiary: #0c0e13 !important;
+  --background-tertiary: #060709 !important;
 
   /* colour of text box that you type in */
   --channeltextarea-background: var(--background-accent) !important;
