@@ -89,6 +89,10 @@
   --toast-border: var(--background-tertiary) !important;
   --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
   --offline-color: #3c3c3c !important;
+
+  /* Margins */
+  --margin: 5px;
+  --radius: 10px;
 }
 
 /* Add role box (thanku Luckfire!!!) */
