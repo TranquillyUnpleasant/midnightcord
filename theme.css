@@ -554,16 +554,8 @@ amazing LuckFire#4800! */
 }
 
 /* Chat borders */
-.content-yTz4x3{
-  background-color: var(--background-tertiary);
-  border-radius: var(--radius);
-}
-.scrollerInner-2YIMLh{
-  background-color: var(--background-secondary);
-  border-radius: var(--radius);
-}
-.form-2fGMdU{
-  background-color: var(--background-secondary);
+.content-yTz4x3, .scrollerInner-2YIMLh, .form-2fGMdU{
+  background-color: transparent;
   border-radius: var(--radius);
 }
 .chatContent-a9vAAp{
@@ -573,6 +565,9 @@ amazing LuckFire#4800! */
 }
 .scroller-2LSbBU, .scrollerInner-2YIMLh{
   background-color: transparent;
+}
+.messagesWrapper-1sRNjr, .scrollerContent-WzeG7R{
+  border-radius: var(--radius);
 }
 
 /* Top bar */
