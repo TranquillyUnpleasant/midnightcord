@@ -8,6 +8,7 @@
 
   /* colour of links (including in embeds) */
   --text-link: #d9a2eb;
+  --text-link-shade: #d9a2eb80;
   --text-link-highlight: #d9a2eb10;
 
   /* colour of right hand side of screen and chat */
@@ -590,7 +591,7 @@ amazing LuckFire#4800! */
   height: 34px;
   position: absolute;
   top: 4px;
-  background-color: var(--text-link);
+  background-color: var(--text-link-shade);
 }
 
 /* Settings left side */
