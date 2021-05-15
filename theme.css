@@ -30,15 +30,15 @@
   --channeltextarea-background: var(--background-accent) !important;
 
   /* colours of things when you hover over them; e.g. a channel/user */
-  --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
-  --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
-  --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+  --background-modifier-hover: #ffffff03 !important;
+  --background-modifier-active: #ffffff08 !important;
+  --background-modifier-selected: #ffffff0a !important;
 
   /* colour of channel name's text */
   --channels-default: #9f9f9f !important;
 
   /* colour of message when hovering over it */
-  --message-hover: #15181e !important;
+  --message-hover: #15181e60 !important;
 
   /* colour of search bar */
   --search-menu-colour: #0c0e13 !important;
@@ -378,44 +378,6 @@ div.message-2qnXI6:hover {
   font-size: 15px;
 }
 
-/* Message search menu and quickswitcher; code yoinked from the
-amazing LuckFire#4800! */
-.searchFilter-2ESiM3,
-.searchAnswer-3Dz2-q {
-  background-color: var(--background-secondary-alt) !important;
-}
-#search-results {
-  background-color: var(--background-secondary) !important;
-  box-shadow: 0 0 0 1px var(--background-tertiary), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-}
-#search-results > .focused-2bY0OD {
-  background-color: var(--background-secondary) !important;
-}
-.option-96V44q.selected-rZcOL- {
-  background-color: var(--background-modifier-hover) !important;
-}
-.option-96V44q::after {
-  background: transparent !important;
-}
-.option-96V44q.selected-rZcOL-::before {
-  background: var(--background-secondary-alt) !important;
-  padding-left: 10px;
-}
-.react-datepicker,
-.react-datepicker__header {
-  background-color: var(--background-secondary) !important;
-}
-.react-datepicker__day:not(:hover):not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month) {
-  background-color: var(--background-secondary-alt) !important;
-}
-.react-datepicker__day {
-  border-color: var(--background-tertiary) !important;
-}
-.react-datepicker__day--disabled,
-.react-datepicker__day--outside-month {
-  background-color: var(--background-primary) !important;
-}
-
 /* Sticker blocking */
 .wrapper-2a6GCs .assetWrapper-3GNt0z[style] {
   height: auto !important;
@@ -500,7 +462,7 @@ amazing LuckFire#4800! */
 /* Revert reactions */
 .reaction-1hd86g {
   border-radius: .25rem;
-  background: var(--background-secondary-alt);
+  background: var(--background-secondary);
 
   border-color: transparent !important;
 }
@@ -597,4 +559,64 @@ amazing LuckFire#4800! */
 /* Settings left side */
 .sidebarRegionScroller-3MXcoP{
   background-color: var(--background-tertiary);
+}
+.contentRegionScroller-26nc1e{
+  background-color: var(--background-secondary-alt);
+}
+
+/* Theme toggler */
+.cardPrimary-1Hv-to{
+  background-color: var(--background-primary);
+}
+
+/* Search bar */
+.searchResultsWrap-3-pOjs{
+  background-color: transparent;
+}
+.scroller-3GIiMh{
+  border-radius: var(--radius);
+  background-color: var(--background-secondary-alt);
+}
+#search-results {
+  background-color: transparent !important;
+}
+#search-results > .focused-2bY0OD {
+  background-color: var(--background-secondary) !important;
+}
+.channelName-1JRO3C{
+  background-color: transparent;
+}
+.searchFilter-2ESiM3,
+.searchAnswer-3Dz2-q {
+  background-color: var(--background-secondary-alt) !important;
+}
+#search-results {
+  background-color: var(--background-secondary) !important;
+}
+#search-results > .focused-2bY0OD {
+  background-color: transparent !important;
+}
+.option-96V44q.selected-rZcOL- {
+  background-color: transparent !important;
+}
+.option-96V44q::after {
+  background: transparent !important;
+}
+.option-96V44q.selected-rZcOL-::before {
+  background: var(--background-secondary-alt) !important;
+  padding-left: 10px;
+}
+.react-datepicker,
+.react-datepicker__header {
+  background-color: var(--background-secondary) !important;
+}
+.react-datepicker__day:not(:hover):not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month) {
+  background-color: var(--background-secondary-alt) !important;
+}
+.react-datepicker__day {
+  border-color: var(--background-tertiary) !important;
+}
+.react-datepicker__day--disabled,
+.react-datepicker__day--outside-month {
+  background-color: var(--background-primary) !important;
 }
