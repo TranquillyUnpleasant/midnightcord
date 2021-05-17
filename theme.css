@@ -642,3 +642,8 @@ div.message-2qnXI6:hover {
 .react-datepicker__day--outside-month {
   background-color: var(--background-primary) !important;
 }
+
+/* Remove stage channel notification. */
+.channelNotice-2bJINM{
+  display: none;
+}
