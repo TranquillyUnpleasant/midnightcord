@@ -156,8 +156,7 @@ and on profile) */
 /* colour of the tag (backround and text) */
 [class*="botTagCozy-"],
 [class*="botTag-"] {
-  background-color: #8000a0;
-  color: white;
+  background-color: var(--interactive-hover);
 }
 
 /* not too sure what this does but without it, the colour
