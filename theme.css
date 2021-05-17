@@ -568,6 +568,16 @@ div.message-2qnXI6:hover {
 .mentioned-xhSam7::before{
   background-color: var(--mention);
 }
+
+/* Roles shape */
+.role-2irmRk{
+  display: flex;
+  border-radius: 5px;
+}
+.roleCircle-3xAZ1j{
+  border-radius: 3px;
+}
+
 /* Settings left side */
 .sidebarRegionScroller-3MXcoP{
   background-color: var(--background-tertiary);
