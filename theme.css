@@ -11,6 +11,10 @@
   --text-link-shade: #d9a2eb80;
   --text-link-highlight: #d9a2eb10;
 
+  /* Color of mentions */
+  --mention: #df3030;
+  --mention-highlight:#df303029;
+
   /* colour of right hand side of screen and chat */
   --background-primary: #101219 !important;
 
@@ -556,6 +560,15 @@ div.message-2qnXI6:hover {
   background-color: var(--text-link-shade);
 }
 
+/* Red mentions */
+.mentioned-xhSam7{
+  background-color:var(--mention-highlight);
+  border-radius: 0px 50px 50px 0px;
+  width: 950px;
+}
+.mentioned-xhSam7::before{
+  background-color: var(--mention);
+}
 /* Settings left side */
 .sidebarRegionScroller-3MXcoP{
   background-color: var(--background-tertiary);
