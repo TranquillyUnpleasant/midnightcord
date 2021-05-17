@@ -653,3 +653,9 @@ div.message-2qnXI6:hover {
   background-color: transparent;
 }
 
+/* Close icon positioning */
+.toolsContainer-1edPuj{
+  position: absolute;
+  top: 0px;
+  right: 28%;
+}
