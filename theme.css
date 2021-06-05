@@ -741,3 +741,36 @@ div.message-2qnXI6:hover {
   background-color: var(--background-tertiary);
 }
 
+/* Pins menu */
+.messagesPopoutWrap-1MQ1bW {
+  border-radius: var(--radius);
+}
+
+.messageGroupWrapper-o-Zw7G {
+  background-color: var(--background-tertiary);
+  border-radius: var(--radius);
+}
+
+/* Inbox menu */
+.channel-3pEHab,
+.channelHeader-3Gd2xq {
+  border-radius: var(--radius);
+  margin: var(--margin);
+  background-color: var(--background-tertiary);
+}
+
+.messages-3G3erD {
+  margin: 0px var(--margin);
+  background-color: transparent;
+}
+
+/* Mentions menu */
+.container-3iAQ-0 {
+  background-color: var(--background-tertiary);
+  margin: var(--margin);
+  border-radius: var(--radius);
+}
+
+.messageContainer-gbhlwo {
+  background-color: transparent;
+}
