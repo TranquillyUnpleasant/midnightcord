@@ -717,3 +717,20 @@ div.message-2qnXI6:hover {
   top: 0px;
   right: 28%;
 }
+
+/* Slash-command header*/
+.categoryHeader-O1zU94 {
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .selected-1Tbx07 {
+  background-color: var(--background-primary);
+}
+
+.animatedContainer-1NSq4T,
+.bannerImage-3KhIJ6 {
+  position: absolute;
+  z-index: 3;
+  border-radius: var(--radius) var(--radius) 0px 0px;
+}
+
