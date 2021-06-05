@@ -734,3 +734,10 @@ div.message-2qnXI6:hover {
   border-radius: var(--radius) var(--radius) 0px 0px;
 }
 
+/* Rounded server menu */
+.scroller-3BxosC,
+.menu-3sdvDG {
+  border-radius: var(--radius);
+  background-color: var(--background-tertiary);
+}
+
