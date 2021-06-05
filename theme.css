@@ -767,3 +767,77 @@ div.message-2qnXI6:hover {
 .messageContainer-gbhlwo {
   background-color: transparent;
 }
+
+/* Home top bar */
+.theme-dark .container-1D34oG {
+  background-color: transparent;
+}
+
+/* Home channels */
+.scroller-1JbKMe {
+  margin: var(--margin) 0px;
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--radius);
+}
+
+.searchBar-6Kv8R2 {
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--radius);
+}
+
+.privateChannels-1nO12o {
+  background-color: transparent;
+}
+
+/* Add friend box */
+.sectionHeader-20RGqu {
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--radius);
+  margin: var(--margin) 0px;
+}
+
+.theme-dark .friendSelected-1sa4bG {
+  background-color: transparent;
+  border-radius: var(--radius);
+}
+
+.peopleColumn-29fq28 {
+  background-color: transparent;
+}
+
+/* Friend activity */
+.nowPlayingColumn-2sl4cE {
+  background-color: transparent;
+}
+
+.container-lRFx4q {
+  background-color: transparent;
+}
+
+.scroller-2ZPeAD {
+  margin: var(--margin) 0px var(--margin) var(--margin);
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--radius);
+}
+
+.stageSection-3mAD8V {
+  background-color: transparent;
+}
+
+/* Stage discovery */
+.container-24CyRY {
+  background-color: var(--background-secondary-alt);
+  margin-top: var(--margin);
+  border-radius: var(--radius);
+}
+
+/* Nitro tab */
+.applicationStore-1pNvnv {
+  background-color: transparent;
+}
+
+.scroller-9moviB {
+  margin-top: var(--margin);
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--radius);
+}
