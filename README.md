@@ -13,12 +13,14 @@ This repo is an older version with a fair amount of tweaks i made for personal u
 Open a shell in your powercord themes folder.
 
 For windows, go to the folder, press `ctrl + D` then type in `powershell`
+
 For mac, first open `services` from finder and enable `New Terminal at Folder` if you havent already. Then go to the folder in finder, right click and open a terminal.
+
 For linux, you know how to open a terminal.
 
 Once you have a terminal open just type:
 ```shell
-git clone https://github.com/uranquillyunpleasant/midnightcord
+git clone https://github.com/tranquillyunpleasant/midnightcord
 ```
 
 And then restart discord.
