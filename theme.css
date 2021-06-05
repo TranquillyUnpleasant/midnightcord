@@ -711,13 +711,6 @@ div.message-2qnXI6:hover {
   background-color: transparent;
 }
 
-/* Close icon positioning */
-.toolsContainer-1edPuj {
-  position: absolute;
-  top: 0px;
-  right: 28%;
-}
-
 /* Slash-command header*/
 .categoryHeader-O1zU94 {
   background-color: var(--background-tertiary);
