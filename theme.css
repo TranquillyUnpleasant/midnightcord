@@ -17,6 +17,7 @@
 
   /* colour of right hand side of screen and chat */
   --background-primary: #101219 !important;
+  --b-p-override: #101219;
 
   /* embed backround/text channel list/member list colour */
   --background-secondary: #101219 !important;
@@ -400,8 +401,8 @@ div.message-2qnXI6:hover {
   font-size: 15px;
 }
 
-/* Sticker blocking */
-.wrapper-2a6GCs .assetWrapper-3GNt0z[style] {
+/* Sticker blocking disabled*/
+/* .wrapper-2a6GCs .assetWrapper-3GNt0z[style] {
   height: auto !important;
   width: auto !important;
 }
@@ -432,7 +433,7 @@ div.message-2qnXI6:hover {
 .wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .lottieCanvas-1W7L-f,
 .wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .pngImage-33yLRP {
   display: block;
-}
+} */
 
 /* Tweak Create Text Channel colours */
 /* changes colour of main box */
@@ -777,7 +778,7 @@ div.message-2qnXI6:hover {
 .scroller-1JbKMe {
   margin: var(--margin) 0px;
   background-color: var(--background-secondary-alt);
-  border-radius: var(--radius);
+  border-radius: var(--radius) var(--radius) 0px 0px;
 }
 
 .searchBar-6Kv8R2 {
@@ -840,4 +841,19 @@ div.message-2qnXI6:hover {
   margin-top: var(--margin);
   background-color: var(--background-secondary-alt);
   border-radius: var(--radius);
+}
+
+/* Separator? */
+.body-1ld4H7,
+.theme-dark .inset-3sAvek {
+  background-color: transparent;
+}
+
+.form-2fGMdU {
+  border-radius: 0 0 var(--radius) var(--radius);
+  background-color: var(--background-secondary-alt);
+}
+
+.theme-dark .form-2fGMdU:before {
+  display: none;
 }
